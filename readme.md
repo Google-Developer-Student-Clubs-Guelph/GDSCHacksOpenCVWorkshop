@@ -8,6 +8,8 @@ OpenCV is a powerful library for computer vision and image processing. It is an 
 
 For this workshop we will be focusing on object tracking using OpenCV. Object tracking is the process of locating a moving object over time. It has a variety of applications such as surveillance, human-computer interaction, etc. There are different algorithms for object tracking such as MeanShift, CamShift, etc. In this workshop, we will using opencv's built-in object tracking algorithms.
 
+<div style="page-break-after: always;"></div>
+
 ## Steps
 
 ### Prerequisites
@@ -30,6 +32,8 @@ import matplotlib.pyplot as plt
 # Well also be using the built-in time module
 import time
 ```
+
+<div style="page-break-after: always;"></div>
 
 ### Step 3: Read the video file
 
@@ -71,6 +75,8 @@ video.release()
 cv2.destroyAllWindows()
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### Step 4: Drawing in frame
 
 Let's create a few helper functions that will let us draw rectangles and text in the frame.
@@ -100,6 +106,8 @@ def drawText(frame, txt, location, color=(50, 170, 50)):
 
 ## Video display code...
 ```
+
+<div style="page-break-after: always;"></div>
 
 ### Step 5: Object Tracking
 
@@ -154,6 +162,8 @@ else:
 # Video Display code...
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### Step 6: Tracking the object
 
 Now that we have the video file, the helper functions, and the tracker set up, let's put it all together and track the object.
@@ -200,11 +210,15 @@ video.release()
 cv2.destroyAllWindows()
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### Step 7: Conclusion
 
 That's it! We have successfully tracked an object using OpenCV. We learned how to read a video file, display the frames, and track an object using OpenCV's built-in object tracking algorithms. We also learned how to draw rectangles and text in the frame using OpenCV and Matplotlib.
 
 > Note: The tracking algorithms are not perfect and may fail in some cases. It is important to choose the right tracking algorithm based on the application.
+
+<div style="page-break-after: always;"></div>
 
 ## Final Code
 
