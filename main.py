@@ -2,9 +2,17 @@ import cv2
 import matplotlib.pyplot as plt
 import time
 
+## Install the following dependencies
+## $ pip install opencv-python
+##
+## GOTURN Files: https://github.com/Mogball/goturn-files
+##
+## Download the following files and place them in the same directory as this file
+## goturn.prototxt
+## goturn.caffemodel
+
+
 # Helper functions to draw rectangle, display rectangle, and draw text
-
-
 def drawRectangle(frame, bbox):
     p1 = (int(bbox[0]), int(bbox[1]))
     p2 = (int(bbox[0] + bbox[2]), int(bbox[1] + bbox[3]))
@@ -98,10 +106,10 @@ while True:
     # Display Info
     drawText(frame, tracker_type + " Tracker", (80, 60))
 
-    cv2.imshow('Frame', frame)
+    cv2.imshow("Frame", frame)
 
     # Break the loop when 'q' is pressed
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(1) & 0xFF == ord("q"):
         break
 
     time.sleep(0.05)
