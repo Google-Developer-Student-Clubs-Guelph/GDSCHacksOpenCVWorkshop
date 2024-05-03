@@ -6,6 +6,8 @@ import time
 ## $ pip install opencv-python
 ##
 ## GOTURN Files: https://github.com/Mogball/goturn-files
+## - goturn.prototxt
+## - goturn.caffemodel
 ##
 ## Download the following files and place them in the same directory as this file
 ## goturn.prototxt
