@@ -15,16 +15,20 @@ For this workshop we will be focusing on object tracking using OpenCV. Object tr
 ### Prerequisites
 
 1. Python
-2. OpenCV
-3. Matplotlib
+2. OpenCV `pip install opencv-python`
+3. Matplotlib `pip install matplotlib`
+4. GOTURN Files: `https://github.com/Mogball/goturn-files`
 
-### Step 1: Install the required libraries
+### Step 1: Install the GOTURN Files.
+Steps found in `https://github.com/Mogball/goturn-files`
+
+### Step 2: Install the required libraries
 
 ```bash
 pip install opencv-contrib-python==4.5.5.62 matplotlib
 ```
 
-### Step 2: Import the required libraries
+### Step 3: Import the required libraries
 
 ```python
 import cv2
@@ -35,7 +39,7 @@ import time
 
 <div style="page-break-after: always;"></div>
 
-### Step 3: Read the video file
+### Step 4: Read the video file
 
 Let's start by reading the video file and displaying it in a preview window. We will be using the `cv2.VideoCapture` class to read the video file.
 
@@ -77,7 +81,7 @@ cv2.destroyAllWindows()
 
 <div style="page-break-after: always;"></div>
 
-### Step 4: Drawing in frame
+### Step 5: Drawing in frame
 
 Let's create a few helper functions that will let us draw rectangles and text in the frame.
 
@@ -109,7 +113,7 @@ def drawText(frame, txt, location, color=(50, 170, 50)):
 
 <div style="page-break-after: always;"></div>
 
-### Step 5: Object Tracking
+### Step 6: Object Tracking
 
 Now that we have the video file and the helper functions in place, let's move on to the object tracking part. OpenCV provides us with a variety of object tracking algorithms, we'll write our code in such a way so we can swap them out easily.
 
@@ -164,7 +168,7 @@ else:
 
 <div style="page-break-after: always;"></div>
 
-### Step 6: Tracking the object
+### Step 7: Tracking the object
 
 Now that we have the video file, the helper functions, and the tracker set up, let's put it all together and track the object.
 
@@ -212,7 +216,7 @@ cv2.destroyAllWindows()
 
 <div style="page-break-after: always;"></div>
 
-### Step 7: Conclusion
+### Step 8: Conclusion
 
 That's it! We have successfully tracked an object using OpenCV. We learned how to read a video file, display the frames, and track an object using OpenCV's built-in object tracking algorithms. We also learned how to draw rectangles and text in the frame using OpenCV and Matplotlib.
 
