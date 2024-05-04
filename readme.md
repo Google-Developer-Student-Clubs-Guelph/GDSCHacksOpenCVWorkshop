@@ -19,8 +19,11 @@ For this workshop we will be focusing on object tracking using OpenCV. Object tr
 3. Matplotlib `pip install matplotlib`
 4. GOTURN Files: `https://github.com/Mogball/goturn-files`
 
-### Step 1: Install the GOTURN Files.
+### Step 1: Install the GOTURN Files and clone repo
 Steps found in `https://github.com/Mogball/goturn-files`
+
+Clone the racecar.mp4 file:
+`git clone https://github.com/Google-Developer-Student-Clubs-Guelph/GDSCHacksOpenCVWorkshopResources.git`
 
 ### Step 2: Install the required libraries
 
