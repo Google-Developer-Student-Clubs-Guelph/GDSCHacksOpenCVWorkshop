@@ -23,7 +23,9 @@ For this workshop we will be focusing on object tracking using OpenCV. Object tr
 Steps found in `https://github.com/Mogball/goturn-files`
 
 Clone the racecar.mp4 file:
-```git clone https://github.com/Google-Developer-Student-Clubs-Guelph/GDSCHacksOpenCVWorkshopResources.git```
+```
+git clone https://github.com/Google-Developer-Student-Clubs-Guelph/GDSCHacksOpenCVWorkshopResources.git
+```
 
 ### Step 2: Install the required libraries
 
